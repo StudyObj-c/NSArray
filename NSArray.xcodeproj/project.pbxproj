@@ -14,6 +14,10 @@
 		78CCDA9B1FF106C40070C771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CCDA991FF106C40070C771 /* LaunchScreen.storyboard */; };
 		78CCDAA61FF106C50070C771 /* NSArrayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAA51FF106C50070C771 /* NSArrayTests.m */; };
 		78CCDAB11FF106C50070C771 /* NSArrayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAB01FF106C50070C771 /* NSArrayUITests.m */; };
+		78CCDAC01FF11E3B0070C771 /* IGHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDABF1FF11E3B0070C771 /* IGHuman.m */; };
+		78CCDAC31FF122F00070C771 /* IGSwimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAC21FF122F00070C771 /* IGSwimmer.m */; };
+		78CCDAC61FF1231A0070C771 /* IGRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAC51FF1231A0070C771 /* IGRunner.m */; };
+		78CCDAC91FF123420070C771 /* IGCyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAC81FF123420070C771 /* IGCyclist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		78CCDAAC1FF106C50070C771 /* NSArrayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSArrayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CCDAB01FF106C50070C771 /* NSArrayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArrayUITests.m; sourceTree = "<group>"; };
 		78CCDAB21FF106C50070C771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78CCDABE1FF11E3B0070C771 /* IGHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHuman.h; sourceTree = "<group>"; };
+		78CCDABF1FF11E3B0070C771 /* IGHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGHuman.m; sourceTree = "<group>"; };
+		78CCDAC11FF122F00070C771 /* IGSwimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSwimmer.h; sourceTree = "<group>"; };
+		78CCDAC21FF122F00070C771 /* IGSwimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSwimmer.m; sourceTree = "<group>"; };
+		78CCDAC41FF1231A0070C771 /* IGRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGRunner.h; sourceTree = "<group>"; };
+		78CCDAC51FF1231A0070C771 /* IGRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGRunner.m; sourceTree = "<group>"; };
+		78CCDAC71FF123420070C771 /* IGCyclist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCyclist.h; sourceTree = "<group>"; };
+		78CCDAC81FF123420070C771 /* IGCyclist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCyclist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,14 @@
 		78CCDA8A1FF106C40070C771 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
+				78CCDABE1FF11E3B0070C771 /* IGHuman.h */,
+				78CCDABF1FF11E3B0070C771 /* IGHuman.m */,
+				78CCDAC11FF122F00070C771 /* IGSwimmer.h */,
+				78CCDAC21FF122F00070C771 /* IGSwimmer.m */,
+				78CCDAC71FF123420070C771 /* IGCyclist.h */,
+				78CCDAC81FF123420070C771 /* IGCyclist.m */,
+				78CCDAC41FF1231A0070C771 /* IGRunner.h */,
+				78CCDAC51FF1231A0070C771 /* IGRunner.m */,
 				78CCDA8E1FF106C40070C771 /* AppDelegate.h */,
 				78CCDA8F1FF106C40070C771 /* AppDelegate.m */,
 				78CCDA941FF106C40070C771 /* Main.storyboard */,
@@ -270,6 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				78CCDA901FF106C40070C771 /* AppDelegate.m in Sources */,
+				78CCDAC91FF123420070C771 /* IGCyclist.m in Sources */,
+				78CCDAC01FF11E3B0070C771 /* IGHuman.m in Sources */,
+				78CCDAC31FF122F00070C771 /* IGSwimmer.m in Sources */,
+				78CCDAC61FF1231A0070C771 /* IGRunner.m in Sources */,
 				78CCDA8D1FF106C40070C771 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
