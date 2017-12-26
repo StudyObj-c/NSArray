@@ -8,17 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-typedef enum {
-    male,
-    female
-} IGGender;
-
 @interface IGHuman : NSObject
 
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *gender;
 @property (nonatomic, assign) float height;
 @property (nonatomic, assign) float weight;
-@property (nonatomic, assign) IGGender gender;
 
 - (void)movement;
 

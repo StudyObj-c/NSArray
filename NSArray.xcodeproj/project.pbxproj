@@ -18,6 +18,7 @@
 		78CCDAC31FF122F00070C771 /* IGSwimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAC21FF122F00070C771 /* IGSwimmer.m */; };
 		78CCDAC61FF1231A0070C771 /* IGRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAC51FF1231A0070C771 /* IGRunner.m */; };
 		78CCDAC91FF123420070C771 /* IGCyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAC81FF123420070C771 /* IGCyclist.m */; };
+		78CCDACC1FF153670070C771 /* IGStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDACB1FF153670070C771 /* IGStudent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,14 +53,16 @@
 		78CCDAAC1FF106C50070C771 /* NSArrayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSArrayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CCDAB01FF106C50070C771 /* NSArrayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArrayUITests.m; sourceTree = "<group>"; };
 		78CCDAB21FF106C50070C771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78CCDABE1FF11E3B0070C771 /* IGHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGHuman.h; sourceTree = "<group>"; };
-		78CCDABF1FF11E3B0070C771 /* IGHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGHuman.m; sourceTree = "<group>"; };
-		78CCDAC11FF122F00070C771 /* IGSwimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSwimmer.h; sourceTree = "<group>"; };
-		78CCDAC21FF122F00070C771 /* IGSwimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSwimmer.m; sourceTree = "<group>"; };
-		78CCDAC41FF1231A0070C771 /* IGRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGRunner.h; sourceTree = "<group>"; };
-		78CCDAC51FF1231A0070C771 /* IGRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGRunner.m; sourceTree = "<group>"; };
-		78CCDAC71FF123420070C771 /* IGCyclist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGCyclist.h; sourceTree = "<group>"; };
-		78CCDAC81FF123420070C771 /* IGCyclist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGCyclist.m; sourceTree = "<group>"; };
+		78CCDABE1FF11E3B0070C771 /* IGHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGHuman.h; path = ../IGHuman.h; sourceTree = "<group>"; };
+		78CCDABF1FF11E3B0070C771 /* IGHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGHuman.m; path = ../IGHuman.m; sourceTree = "<group>"; };
+		78CCDAC11FF122F00070C771 /* IGSwimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGSwimmer.h; path = ../IGSwimmer.h; sourceTree = "<group>"; };
+		78CCDAC21FF122F00070C771 /* IGSwimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGSwimmer.m; path = ../IGSwimmer.m; sourceTree = "<group>"; };
+		78CCDAC41FF1231A0070C771 /* IGRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGRunner.h; path = ../IGRunner.h; sourceTree = "<group>"; };
+		78CCDAC51FF1231A0070C771 /* IGRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGRunner.m; path = ../IGRunner.m; sourceTree = "<group>"; };
+		78CCDAC71FF123420070C771 /* IGCyclist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGCyclist.h; path = ../IGCyclist.h; sourceTree = "<group>"; };
+		78CCDAC81FF123420070C771 /* IGCyclist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGCyclist.m; path = ../IGCyclist.m; sourceTree = "<group>"; };
+		78CCDACA1FF153670070C771 /* IGStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGStudent.h; path = ../IGStudent.h; sourceTree = "<group>"; };
+		78CCDACB1FF153670070C771 /* IGStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGStudent.m; path = ../IGStudent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,14 +113,7 @@
 		78CCDA8A1FF106C40070C771 /* NSArray */ = {
 			isa = PBXGroup;
 			children = (
-				78CCDABE1FF11E3B0070C771 /* IGHuman.h */,
-				78CCDABF1FF11E3B0070C771 /* IGHuman.m */,
-				78CCDAC11FF122F00070C771 /* IGSwimmer.h */,
-				78CCDAC21FF122F00070C771 /* IGSwimmer.m */,
-				78CCDAC71FF123420070C771 /* IGCyclist.h */,
-				78CCDAC81FF123420070C771 /* IGCyclist.m */,
-				78CCDAC41FF1231A0070C771 /* IGRunner.h */,
-				78CCDAC51FF1231A0070C771 /* IGRunner.m */,
+				78CCDACD1FF154320070C771 /* Models */,
 				78CCDA8E1FF106C40070C771 /* AppDelegate.h */,
 				78CCDA8F1FF106C40070C771 /* AppDelegate.m */,
 				78CCDA941FF106C40070C771 /* Main.storyboard */,
@@ -153,6 +149,23 @@
 				78CCDAB21FF106C50070C771 /* Info.plist */,
 			);
 			path = NSArrayUITests;
+			sourceTree = "<group>";
+		};
+		78CCDACD1FF154320070C771 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				78CCDABE1FF11E3B0070C771 /* IGHuman.h */,
+				78CCDABF1FF11E3B0070C771 /* IGHuman.m */,
+				78CCDAC11FF122F00070C771 /* IGSwimmer.h */,
+				78CCDAC21FF122F00070C771 /* IGSwimmer.m */,
+				78CCDAC71FF123420070C771 /* IGCyclist.h */,
+				78CCDAC81FF123420070C771 /* IGCyclist.m */,
+				78CCDAC41FF1231A0070C771 /* IGRunner.h */,
+				78CCDAC51FF1231A0070C771 /* IGRunner.m */,
+				78CCDACA1FF153670070C771 /* IGStudent.h */,
+				78CCDACB1FF153670070C771 /* IGStudent.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,6 +307,7 @@
 				78CCDAC01FF11E3B0070C771 /* IGHuman.m in Sources */,
 				78CCDAC31FF122F00070C771 /* IGSwimmer.m in Sources */,
 				78CCDAC61FF1231A0070C771 /* IGRunner.m in Sources */,
+				78CCDACC1FF153670070C771 /* IGStudent.m in Sources */,
 				78CCDA8D1FF106C40070C771 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSArray/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IG.NSArray;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -455,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSArray/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = IG.NSArray;
 				PRODUCT_NAME = "$(TARGET_NAME)";
