@@ -12,6 +12,9 @@
 #import "IGRunner.h"
 #import "IGCyclist.h"
 #import "IGStudent.h"
+#import "IGAnimal.h"
+#import "IGTiger.h"
+#import "IGDog.h"
 
 @interface AppDelegate ()
 
@@ -54,19 +57,41 @@
     student.weight = 40.0f;
     student.age    = 17;
     
-    NSArray *array = [NSArray arrayWithObjects: man, swimmer, cyclist, runner, student, nil];
+    IGAnimal *animal = [IGAnimal new];
+    IGTiger *tiger = [IGTiger new];
+    IGDog *dog = [IGDog new];
     
-    for (IGHuman *obj in array) {
-        NSLog(@"name = %@", obj.name);
-        NSLog(@"gender = %@", obj.gender);
-        NSLog(@"height = %f", obj.height);
-        NSLog(@"weight = %f", obj.weight);
+    animal.name = @"cat";
+    animal.speed = 100;
+    
+    tiger.name = @"Murzik";
+    tiger.speed = 220;
+    
+    dog.name = @"Sharik";
+    dog.speed = 90;
+    
+    NSArray *array = [NSArray arrayWithObjects: man, swimmer, cyclist, runner, student, animal, tiger, dog, nil];
+    
+    for (NSObject *objArray in array) {
+        if ([objArray isKindOfClass:[IGHuman class]]) {
+            IGHuman *obj = (IGHuman *)objArray;
+            NSLog(@"name = %@", obj.name);
+            NSLog(@"gender = %@", obj.gender);
+            NSLog(@"height = %f", obj.height);
+            NSLog(@"weight = %f", obj.weight);
+            
+            if ([obj isKindOfClass:[IGStudent class]]) {
+                NSLog(@"age = %d", student.age);
+            }
+            [obj movement];
         
-        if ([obj isKindOfClass:[IGStudent class]]) {
-            NSLog(@"age = %d", student.age);
+        } else if ([objArray isKindOfClass:[IGAnimal class]]) {
+            IGAnimal *animal = (IGAnimal *)objArray;
+            NSLog(@"name = %@", animal.name);
+            NSLog(@"speed = %d", animal.speed);
+            
+            [animal movement];
         }
-        
-        [obj movement];
     }
     
     return YES;

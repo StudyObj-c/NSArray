@@ -19,6 +19,9 @@
 		78CCDAC61FF1231A0070C771 /* IGRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAC51FF1231A0070C771 /* IGRunner.m */; };
 		78CCDAC91FF123420070C771 /* IGCyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAC81FF123420070C771 /* IGCyclist.m */; };
 		78CCDACC1FF153670070C771 /* IGStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDACB1FF153670070C771 /* IGStudent.m */; };
+		78CCDAD01FF24A500070C771 /* IGAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDACF1FF24A500070C771 /* IGAnimal.m */; };
+		78CCDAD31FF24AF00070C771 /* IGTiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAD21FF24AF00070C771 /* IGTiger.m */; };
+		78CCDAD61FF24B400070C771 /* IGDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CCDAD51FF24B400070C771 /* IGDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,12 @@
 		78CCDAC81FF123420070C771 /* IGCyclist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGCyclist.m; path = ../IGCyclist.m; sourceTree = "<group>"; };
 		78CCDACA1FF153670070C771 /* IGStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IGStudent.h; path = ../IGStudent.h; sourceTree = "<group>"; };
 		78CCDACB1FF153670070C771 /* IGStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IGStudent.m; path = ../IGStudent.m; sourceTree = "<group>"; };
+		78CCDACE1FF24A500070C771 /* IGAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGAnimal.h; sourceTree = "<group>"; };
+		78CCDACF1FF24A500070C771 /* IGAnimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGAnimal.m; sourceTree = "<group>"; };
+		78CCDAD11FF24AF00070C771 /* IGTiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTiger.h; sourceTree = "<group>"; };
+		78CCDAD21FF24AF00070C771 /* IGTiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTiger.m; sourceTree = "<group>"; };
+		78CCDAD41FF24B400070C771 /* IGDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGDog.h; sourceTree = "<group>"; };
+		78CCDAD51FF24B400070C771 /* IGDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +173,12 @@
 				78CCDAC51FF1231A0070C771 /* IGRunner.m */,
 				78CCDACA1FF153670070C771 /* IGStudent.h */,
 				78CCDACB1FF153670070C771 /* IGStudent.m */,
+				78CCDACE1FF24A500070C771 /* IGAnimal.h */,
+				78CCDACF1FF24A500070C771 /* IGAnimal.m */,
+				78CCDAD11FF24AF00070C771 /* IGTiger.h */,
+				78CCDAD21FF24AF00070C771 /* IGTiger.m */,
+				78CCDAD41FF24B400070C771 /* IGDog.h */,
+				78CCDAD51FF24B400070C771 /* IGDog.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -304,11 +319,14 @@
 			files = (
 				78CCDA901FF106C40070C771 /* AppDelegate.m in Sources */,
 				78CCDAC91FF123420070C771 /* IGCyclist.m in Sources */,
+				78CCDAD61FF24B400070C771 /* IGDog.m in Sources */,
 				78CCDAC01FF11E3B0070C771 /* IGHuman.m in Sources */,
 				78CCDAC31FF122F00070C771 /* IGSwimmer.m in Sources */,
+				78CCDAD31FF24AF00070C771 /* IGTiger.m in Sources */,
 				78CCDAC61FF1231A0070C771 /* IGRunner.m in Sources */,
 				78CCDACC1FF153670070C771 /* IGStudent.m in Sources */,
 				78CCDA8D1FF106C40070C771 /* main.m in Sources */,
+				78CCDAD01FF24A500070C771 /* IGAnimal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
